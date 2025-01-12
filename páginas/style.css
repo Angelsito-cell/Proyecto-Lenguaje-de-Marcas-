@@ -1,5 +1,5 @@
 body {
-    display: grid;
+    display: flex;
     background-color: rgb(27, 27, 27) ;
     background-size: cover; 
     background-position: center bottom;
@@ -9,16 +9,18 @@ body {
     padding: 0;
     height: 100vh;
     box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .header{
     width: 100%;
     text-align: center;
-    display: flex;
+    display:block;
     margin: 0;
     padding: 0;
     height: auto;
-    position: sticky;
     top: 0;
 
 }
